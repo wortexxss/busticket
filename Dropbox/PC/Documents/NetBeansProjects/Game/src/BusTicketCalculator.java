@@ -38,5 +38,6 @@ public class BusTicketCalculator {
         } else {
             System.out.println("Invalid input. Please enter valid values.");
         }
+        sc.close();
     }
 }
